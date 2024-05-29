@@ -1,0 +1,62 @@
+.header {
+    max-width: 80%;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the left */
+    flex-direction: row; /* Arrange items horizontally */
+    text-align: left; /* Align text to the left */
+}
+
+.header img {
+    max-width: 60%; /* Adjust this value as needed */
+    height: auto;
+    margin-right: 20px; /* Add some space between image and text */
+    
+}
+
+.header button {
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 992px) {
+    .header img {
+        display: none;
+    }
+    .faq {
+        display: none;
+    }
+}
+
+button {
+    padding: 10px 30px;
+    border-radius: 15px;
+    outline: none;
+    background: linear-gradient(to bottom right, orange, rgb(255, 85, 9));
+    color: white;
+    cursor: pointer;
+    border: 1px solid rgb(250, 81, 81);
+    transition: 0.2s all ease-in-out;
+}
+
+button:hover {
+    filter: brightness(1.2);
+    box-shadow: 0 0 2px 2px orange;
+}
+
+button:active {
+    box-shadow: 20px 20px 50px 10px brown inset, 0 0 2px 0 orange;
+}
+
+h1 {
+    font-size: 35px;
+    color: rgb(232, 139, 45);
+}
+
+.bb {
+    width: 300px;
+    bottom: 0px;
+    left: 300px;
+    position: relative;
+    
+}
